@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h4 {
+            text-align: center;
+            background-color: rgba(80, 176, 255, 0.158);
+            padding: 10px;
+            font-size: 19px;
+            margin: 0;
+            border-radius: 5px;
+            text-shadow: -6px 3px 3px rgb(149, 225, 255),6px 2px 5px rgb(149, 225, 255);
+            box-shadow:  -6px 3px 3px rgb(149, 225, 255),6px 2px 5px rgb(149, 225, 255);
+            font-family: cursive;
+            color: rgb(43, 195, 255);
+
+        }
+
+        p {
+            text-align: justify;
+            margin: 0;
+        }
+
+        .links {
+            text-align: left;
+            color: black;
+            opacity: 0.7;
+            margin: 0;
+        }
+
+        #thumbnail {
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        }
+
+        .fullCard {
+            width: 180px;
+            height: 250px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 4px;
+        }
+
+        .cardContent {
+            padding: 10px;
+        }
+
+        .cardText {
+            font-size: 11px;
+            width: 150px;
+            height: 170px;
+            margin-bottom: 10px;
+            padding: 5px;
+            border-bottom: 3px  solid skyblue;
+            border-left: 2px solid skyblue;
+            border-right: 2px solid skyblue;
+            border-radius: 5px;
+            
+        }
+
+        .cardLinks {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 80px;
+            height: 40px;
+            border-bottom: 2px solid rgba(0, 110, 255, 0.527);
+            border-right: 2px solid rgba(0, 110, 255, 0.527);
+            box-shadow: -2px -1px skyblue;
+            border-radius: 5px;
+            padding: 0px 7px;
+            padding-top: 5px;
+            font-size: 11px;
+        }
+
+        .container {
+            margin: auto;
+            margin-top: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 600px;
+            height: 300px;
+            /* box-shadow: 2px 20px 14px rgba(112, 214, 255, 0.548), -2px -2px 5px rgba(112, 214, 255, 0.548); */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="fullCard" id="thumbnail">
+            <div class="cardContent">
+                <div class="cardText">
+                    <h4>Google</h4>
+                    <hr>
+                    <p><em>Google was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at
+                            <strong>Stanford University</strong>.</em></p>
+                </div>
+                <div class="cardLinks">
+                    <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">Larry
+                        Page</a>
+                    <a href="https://en.wikipedia.org/wiki/Sergey_Brin" target="_blank" class="links">Sergey Brin</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="fullCard" id="thumbnail">
+            <div class="cardContent">
+                <div class="cardText">
+                    <h4>Facebook</h4>
+                    <hr>
+                    <p><em>is an American technology conglomerate based in Menlo Park, California.<u>It was founded by Mark Zuckerberg, along with his fellow roommates and students at</u> at
+                            <strong>Harvard College</strong>.</em></p>
+                </div>
+                <div class="cardLinks">
+                    <a href="https://en.wikipedia.org/wiki/Mark_Zuckerberg" target="_blank" class="links">Mark Zuckerberg</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="fullCard" id="thumbnail">
+            <div class="cardContent">
+                <div class="cardText">
+                    <h4>Instagram</h4>
+                    <hr>
+                    <p><em>(commonly abbreviated to IG or Insta)[7] is an American photo and video sharing social networking service owned by <u>Facebook</u></em></p>
+                </div>
+                <div class="cardLinks">
+                    <a href="https://en.wikipedia.org/wiki/Kevin_Systrom" target="_blank" class="links">Kevin Systrom</a>
+                    <a href="https://en.wikipedia.org/wiki/Kevin_Systrom" target="_blank" class="links">Mike Krieger</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
